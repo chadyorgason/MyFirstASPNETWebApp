@@ -1,8 +1,20 @@
 ﻿body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Malgun Gothic';
+    padding: 15px;
+    background-color:khaki;
 }
 
 label {
     width: 125px;
     display: inline-block;
+    color:indianred;
+}
+
+li {
+    list-style-type:georgian;
+    color:indianred;
+}
+
+p {
+    color:indianred;
 }
