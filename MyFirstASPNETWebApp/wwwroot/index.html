@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My Me Page</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Chad Yorgason</h1>
+
+    <img id="picChad" src="img/catch.jpg" />
+
+    <p>I'm way excited to learn c# this semester. I love being able to apply new skills to principles I've already learned. I want to be just as comfortable with c# as I am with python and javascript.</p>
+    <p>Jobs I'm interested in pursuing:</p>
+    <ul>
+        <li>1. Web developer</li>
+        <li>2. Data analyst</li>
+        <li>3. Software developer</li>
+    </ul>
+
+    <h2>Calculate Grade:</h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="pctA" type="number" /> <br />
+        <label>Group Project:</label>
+        <input id="pctGP" type="number" /> <br />
+        <label>Quizzes:</label>
+        <input id="pctQ" type="number" /> <br />
+        <label>Midterm Exam:</label>
+        <input id="pctME" type="number" /> <br />
+        <label>Final Exam:</label>
+        <input id="pctFE" type="number" /> <br />
+        <label>INTEX:</label>
+        <input id="pctI" type="number" /> <br />
+        <input id="btnSend" type="button" value="Calculate" />
+    </form>
+    <br />
+    <p id="FG">Final Grade: </p>
+    <p id="LG">Letter Grade: </p>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Calculation.js"></script>
+</body>
+</html>
